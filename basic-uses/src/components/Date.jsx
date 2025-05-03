@@ -1,10 +1,13 @@
 import React from 'react'
 
 const MyDate = () => {
-    const time = new Date()
+    let time = new Date()
   return (
     <div>
-        <p>{time.toLocaleString()}</p>
+        <p>Date: {time.getDate()}</p>
+        <p>Month: {time.getMonth() + 1}</p>
+        <p>Year: {time.getFullYear()}</p>
+        <p>Full date and time: {time.toLocaleString()}</p>
     </div>
   )
 }
