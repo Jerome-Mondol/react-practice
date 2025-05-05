@@ -3,18 +3,39 @@
         "name": "Jerome",
         "age": 14,
         "number": 526645,
-        "id": 1
+        "id": 1,
+        "EnrolledCourses": [
+            {
+                "courseId": 1451,
+                "courseName": "Frontend Development",
+                "courseDuration": "3 months"
+            }
+        ]
     },
     {
         "name": "jack",
         "age": 25,
         "number": 289484,
-        "id": 2
+        "id": 2,
+        "EnrolledCourses": [
+            {
+                "courseId": 54857,
+                "courseName": "Python Development",
+                "courseDuration": "7 months"
+            }
+        ]
     },
     {
         "name": "Chiggu",
         "age": 16,
         "number": 48545,
-        "id": 3
+        "id": 3,
+        "EnrolledCourses": [
+            {
+                "courseId": 7648,
+                "courseName": "Fullstack Development",
+                "courseDuration": "16 months"
+            }
+        ]
     }
 ]
