@@ -4,6 +4,7 @@ import MyState from './components/MyState'
 import StudentInfoCard from './components/StudentInfoCard'
 import Event from './components/Event'
 import Parent from './components/MethodAsProps/Parent'
+import Login from './components/CondotionalRendering/Login'
 
 
 const App = () => {
@@ -13,7 +14,8 @@ const App = () => {
         {/* <MyState /> */}
         {/* <StudentInfoCard /> */}
         {/* <Event /> */}
-        <Parent />
+        {/* <Parent /> */}
+        <Login />
     </>
   )
 }
