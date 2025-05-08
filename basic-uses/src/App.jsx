@@ -3,6 +3,7 @@ import MyDate from './components/Date'
 import MyState from './components/MyState'
 import StudentInfoCard from './components/StudentInfoCard'
 import Event from './components/Event'
+import Parent from './components/MethodAsProps/Parent'
 
 
 const App = () => {
@@ -11,7 +12,8 @@ const App = () => {
         {/* <MyDate /> */}
         {/* <MyState /> */}
         {/* <StudentInfoCard /> */}
-        <Event />
+        {/* <Event /> */}
+        <Parent />
     </>
   )
 }
